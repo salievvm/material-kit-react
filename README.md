@@ -1,9 +1,7 @@
-## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
-
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+## Possible errors
 
 If you recieve error Delete `␍` prettier/prettier
-fix this in `.eslintrc` this way: 
+fix this in `.eslintrc` this way or in file `.prettierrc`: 
 
 "prettier/prettier": [
       2,
@@ -16,7 +14,9 @@ fix this in `.eslintrc` this way:
       }
     ]
     
-or in file `.prettierrc`
+## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
+
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 > Free React Admin Dashboard made with Material-UI components and React.
 
