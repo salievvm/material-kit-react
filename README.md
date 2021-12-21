@@ -1,3 +1,19 @@
+## Possible errors
+
+If you recieve error Delete `␍` prettier/prettier
+fix this in `.eslintrc` this way or in file `.prettierrc`: 
+
+"prettier/prettier": [
+      2,
+      {
+        "printWidth": 100,
+        "singleQuote": true,
+        "trailingComma": "none",
+        "tabWidth": 2,
+        "endOfLine": "auto"
+      }
+    ]
+    
 ## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
