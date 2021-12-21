@@ -2,6 +2,22 @@
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
+If you recieve error Delete `␍` prettier/prettier
+fix this in `.eslintrc` this way: 
+
+"prettier/prettier": [
+      2,
+      {
+        "printWidth": 100,
+        "singleQuote": true,
+        "trailingComma": "none",
+        "tabWidth": 2,
+        "endOfLine": "auto"
+      }
+    ]
+    
+or in file `.prettierrc`
+
 > Free React Admin Dashboard made with Material-UI components and React.
 
 ![preview](public/static/preview.png)
